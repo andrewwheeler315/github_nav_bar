@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="github_nav_bar.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal github navbar</title>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-expand-sm bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="Images/GitHub-Mark-Light-32px.png" class="the_hub">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2 bar bg-dark" style="border-color: #404448" type="search"
+                        placeholder="Search or jump to..." aria-label="Search">
+                </form>
+                <img src="Images/search-shortcut-hint.svg" class="shortcut" class="lg-dark">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text" href="#">Pull requests
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text" href="#">Issues</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text" href="#">Marketplace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text" href="#">Explore</a>
+                    </li>
+                </ul>
+                <div class="nav-item images">
+                    <a class="nav-item mr-4" href="">
+                        <img src="Images/bell.svg">
+                    </a>
+                    <div class="nav-item mr-4">
+                        <a class="dropdown-toggle" type="button" data-toggle="dropdown" class="drop" href="#">
+                            <img src="Images/plus.svg">
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">New repository</a>
+                            <a class="dropdown-item" href="#">Import repository</a>
+                            <a class="dropdown-item" href="#">New gist</a>
+                            <a class="dropdown-item" href="#">New organization</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown mr-4">
+                        <a class="dropdown-toggle" type="button" data-toggle="dropdown" class="drop" href="#">
+                            <img src="Images/profile_picture.jpeg" width="24" height="24">
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-lablledby="navbarDropdown">
+                            <a class="dropdown-header" href="#">Signed in as
+                                <br />
+                                <strong>natec425</strong>
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Your profile</a>
+                            <a class="dropdown-item" href="#">Your repositories</a>
+                            <a class="dropdown-item" href="#">Your stars</a>
+                            <a class="dropdown-item" href="#">Your gists</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Help</a>
+                            <a class="dropdown-item" href="#">Settings</a>
+                            <a class="dropdown-item" href="#">Sign out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
